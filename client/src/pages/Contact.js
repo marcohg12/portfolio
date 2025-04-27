@@ -7,7 +7,7 @@ import { CiLinkedin } from "react-icons/ci";
 function Contact(){
     return(
         <div className="container">
-            <div className="my-4">
+            <div className="py-4">
                 <h2 className="mb-4">Contacto</h2>
                 <p>Puede contactarme por medio de los siguientes canales:</p>
                 <div className="d-flex align-items-center mb-4">

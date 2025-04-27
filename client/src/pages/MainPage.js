@@ -1,12 +1,13 @@
 import React from "react";
 import InfoCard from "../components/InfoCard";
 import CampusPhoto from "../assets/campus-sj.jpg";
+import DSProjectPhoto from "../assets/ds-project/ds-proyecto-1.png";
 
 function MainPage(){
     return(
         <div className="container">
-            <div className="my-4">
-                <div className="mb-4">
+            <div className="py-4">
+                <div className="mb-5">
                     <InfoCard
                         title={"Sobre mí"} 
                         imgSrc={CampusPhoto}
@@ -18,13 +19,16 @@ function MainPage(){
                             en tecnologías como React, Node.js, Javascript, Typescript, Express, MySQL y MongoDB.`}
                     />
                 </div>
-                <div className="mb-4">
+                <div className="mb-5">
                     <InfoCard 
                         title={"Proyectos"} 
                         toLink={"/projects"}
-                        text={`A lo largo de mi carrera he desarrollado diversos proyectos académicos en múltiples tecnologías. He desarrollado
-                            desde páginas de comercio en línea con herramientas como React, Node.js y Express; simuladores de memorias MMU
-                            en Java; y hasta compresores de archivos en C.`}
+                        imgSrc={DSProjectPhoto}
+                        imgPosition={"right"}
+                        text={`A lo largo de mi carrera he desarrollado diversos proyectos académicos aplicando múltiples tecnologías y lenguajes de programación. Entre ellos, destacan 
+                            aplicaciones web completas utilizando herramientas modernas como React para el frontend y Node.js con Express en el backend. También he trabajado en el desarrollo 
+                            de simuladores de componentes del sistema operativo, como una unidad de gestión de memoria (MMU), utilizando Java. Además, 
+                            he implementado compresores de archivos en lenguaje C, abordando la manipulación de bits y estructuras de datos eficientes`}
                     />
                 </div>
             </div>

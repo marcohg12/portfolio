@@ -5,7 +5,7 @@ import 'react-medium-image-zoom/dist/styles.css';
 function Carousel({images}){
     return(
     
-        <div id="carousel" className="carousel slide carousel-fade" data-bs-ride="false">
+        <div id="carousel" className="carousel carousel-dark slide carousel-fade" data-bs-ride="false">
 
             <div className="carousel-indicators">
                 {images.map((_, index) => (
@@ -28,7 +28,12 @@ function Carousel({images}){
                         className={`carousel-item ${index === 0 ? 'active' : ''}`}
                     >
                         <Zoom>
-                            <img src={image} className="d-block w-100" alt={`Imagen ${index + 1}`} />
+                            <img 
+                                src={image} 
+                                className="d-block w-100" 
+                                alt={`Imagen ${index + 1}`} 
+                                style={{height: "450px", objectFit: "contain"}}
+                            />
                         </Zoom>
                     </div>
                 ))}

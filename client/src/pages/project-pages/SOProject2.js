@@ -1,14 +1,19 @@
 import React from "react";
 import Carousel from "../../components/Carousel";
+import SOProject2Photo1 from "../../assets/so-project-2/so-proyecto-2-1.png";
+import SOProject2Photo2 from "../../assets/so-project-2/so-proyecto-2-2.png";
+import SOProject2Photo3 from "../../assets/so-project-2/so-proyecto-2-3.png";
+import SOProject2Photo4 from "../../assets/so-project-2/so-proyecto-2-4.png";
 
 function SOProject2(){
     return(
         <div className="container">
-            <div className="my-4">
+            <div className="py-4">
                 <h2 className="mb-4">Simulador de MMU</h2>
+                <p className="fw-lighter">Elaborado en el segundo semestre de 2024.</p>
                 <div className="mb-4">
                     <Carousel
-                        images={[]}
+                        images={[SOProject2Photo1, SOProject2Photo2, SOProject2Photo3, SOProject2Photo4]}
                     />
                 </div>
                 <h3>Descripción</h3>

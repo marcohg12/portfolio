@@ -1,14 +1,26 @@
 import React from "react";
 import Carousel from "../../components/Carousel";
+import APPProjectPhoto1 from "../../assets/ap-project/ap-proyecto-1.jpg";
+import APPProjectPhoto2 from "../../assets/ap-project/ap-proyecto-2.png";
+import APPProjectPhoto3 from "../../assets/ap-project/ap-proyecto-3.png";
+import APPProjectPhoto4 from "../../assets/ap-project/ap-proyecto-4.png";
+import APPProjectPhoto5 from "../../assets/ap-project/ap-proyecto-5.png";
+import APPProjectPhoto6 from "../../assets/ap-project/ap-proyecto-6.png";
+import APPProjectPhoto7 from "../../assets/ap-project/ap-proyecto-7.png";
+import APPProjectPhoto8 from "../../assets/ap-project/ap-proyecto-8.png";
+import APPProjectPhoto9 from "../../assets/ap-project/ap-proyecto-9.png";
 
 function APProject(){
     return(
         <div className="container">
-            <div className="my-4">
+            <div className="py-4">
                 <h2 className="mb-4">Sistema de Reserva para Hoteles</h2>
+                <p className="fw-lighter">Elaborado en el primer semestre de 2023.</p>
                 <div className="mb-4">
                     <Carousel
-                        images={[]}
+                        images={[APPProjectPhoto1, APPProjectPhoto2, APPProjectPhoto3, APPProjectPhoto4,
+                            APPProjectPhoto5, APPProjectPhoto6, APPProjectPhoto7, APPProjectPhoto8, APPProjectPhoto9
+                        ]}
                     />
                 </div>
                 <h3>Descripción</h3>

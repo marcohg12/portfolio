@@ -12,6 +12,8 @@ import DB1Project from "./pages/project-pages/DB1Project";
 import DB2Project from "./pages/project-pages/DB2Project";
 import DSProject from "./pages/project-pages/DSProject";
 import SOProject1 from "./pages/project-pages/SOProject1";
+import NotFoundPage from "./pages/NotFoundPage";
+import './App.css';
 
 function App() {
   return (
@@ -31,6 +33,7 @@ function App() {
             <Route path="ds-project" element={<DSProject/>}/>
           </Route>
           <Route path="contact" element={<Contact/>}/>
+          <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

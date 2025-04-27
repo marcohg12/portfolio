@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function NavBar(){
     return(
-        <nav className="navbar navbar-expand-lg sticky-top" style={{backgroundColor: "#d8e6ed"}}>
+        <nav className="navbar navbar-expand-lg sticky-top" style={{backgroundColor: "#ffffff"}}>
             <div className="container">
 
                 <Link className="navbar-brand" to="/">Marco Herrera González</Link>
@@ -15,7 +15,7 @@ function NavBar(){
         
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ml-auto">
-                        <li className="nav-item active">
+                        <li className="nav-item">
                             <Link className="nav-link" to="/about-me">Sobre mí</Link>
                         </li>
                         <li className="nav-item">

@@ -6,7 +6,7 @@ function Layout(){
     return(
         <>
             <NavBar/>
-            <main>
+            <main style={{backgroundColor: "#F7F7F7", minHeight: "100vh"}}>
                 <Outlet/>
             </main>
         </>

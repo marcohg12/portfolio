@@ -1,25 +1,52 @@
 import React from "react";
 import Carousel from "../../components/Carousel";
+import DB2ProjectPhoto1 from "../../assets/bd2-project/bd2-proyecto-1.png";
+import DB2ProjectPhoto2 from "../../assets/bd2-project/bd2-proyecto-2.png";
+import DB2ProjectPhoto3 from "../../assets/bd2-project/bd2-proyecto-3.png";
+import DB2ProjectPhoto4 from "../../assets/bd2-project/bd2-proyecto-4.png";
+import DB2ProjectPhoto5 from "../../assets/bd2-project/bd2-proyecto-5.png";
+import DB2ProjectPhoto6 from "../../assets/bd2-project/bd2-proyecto-6.png";
+import DB2ProjectPhoto7 from "../../assets/bd2-project/bd2-proyecto-7.png";
 
 function DB2Project(){
     return(
         <div className="container">
-            <div className="my-4">
+            <div className="py-4">
                 <h2 className="mb-4">Sistema de Blogging</h2>
+                <p className="fw-lighter">Elaborado en el segundo semestre de 2022.</p>
                 <div className="mb-4">
                     <Carousel
-                        images={[]}
+                        images={[DB2ProjectPhoto1, DB2ProjectPhoto2, DB2ProjectPhoto3, DB2ProjectPhoto4, DB2ProjectPhoto5,
+                            DB2ProjectPhoto6, DB2ProjectPhoto7
+                        ]}
                     />
                 </div>
                 <h3>Descripción</h3>
                 <p>
-                    Texto
+                    Este es un proyecto para el curso de Bases de Datos II. Consiste en un sistema web para blogging en el que los
+                    usuarios pueden visualizar blogs y filtrarlos por criterios como fecha de publicación, cantidad de me gusta, o
+                    por palabras. Dentro de los blogs, los usuarios pueden visualizar el contenido, el autor del blog y pueden dejar
+                    me gusta, no me gusta, comentarios, o incluso, responder otros comentarios. Los autores del blog pueden visualizar estadísticas
+                    asociadas al blog, como la cantidad de visitas, y la pueden ver en formato de gráfico de líneas o con
+                    gráfico de barras. 
                 </p>
                 <p>
-                    Para este proyecto profundicé en conceptos de frontend y bases de datos como:
+                    Los usuarios también pueden consultar el perfil de otros usuarios, ver los blogs que han publicado y pueden
+                    suscribirse a sus perfiles. Los usuarios cuentan con una pestaña en la que ver únicamente los blogs de los
+                    usuarios a los que se encuentran suscritos. Los autores de los blogs tienen la posibilidad de editar el contenido
+                    de los mismos y de eliminarlos completamente. 
+                </p>
+                <p>
+                    Para este proyecto profundicé en conceptos de Express y frontend como:
                     <ul className="my-3">
                         <li>
-                            <p><b>Carrusel de imágenes: </b></p>
+                            <p><b>Middleware de autenticación: </b>Implementé un middleware para proteger endpoints de usuarios no autenticados.</p>
+                        </li>
+                        <li>
+                            <p><b>Autenticación con passport: </b>Utilicé la biblioteca Passport para manejar las sesiones de los usuarios.</p>
+                        </li>
+                        <li>
+                            <p><b>Generación de gráficos: </b>Utilicé la biblioteca Canvasjs para crear gráficos a partir de los datos de los blogs.</p>
                         </li>
                     </ul>
                 

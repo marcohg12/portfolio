@@ -12,8 +12,9 @@ import CSProjectPhoto8 from "../../assets/cs-project/cs-proyecto-8.png";
 function CSProject(){
     return(
         <div className="container">
-            <div className="my-4">
+            <div className="py-4">
                 <h2 className="mb-4">Punto y Contrapunto</h2>
+                <p className="fw-lighter">Elaborado en el segundo semestre de 2024.</p>
                 <div className="mb-4">
                     <Carousel
                         images={[CSProjectPhoto1, CSProjectPhoto2, CSProjectPhoto3, CSProjectPhoto4,
