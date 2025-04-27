@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function NavBar(){
     return(
-        <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <nav className="navbar navbar-expand-lg sticky-top" style={{backgroundColor: "#d8e6ed"}}>
             <div className="container">
 
                 <Link className="navbar-brand" to="/">Marco Herrera González</Link>

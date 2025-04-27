@@ -13,12 +13,81 @@ function Projects(){
                         imgSrc={CSProjectPhoto}
                         imgPosition={"left"}
                         toLink={"cs-project"}
-                        text={`Es un prototipo de red social basado en la red social Mastodon. La aplicación permite a los usuarios 
+                        text={`Es un prototipo de red social web basado en la red social Mastodon. La aplicación permite a los usuarios 
                             iniciar debates, los cuales deben respaldar con evidencias verídicas. Los demás usuarios pueden responder
                             al debate, aportando nuevas evidencias; además de que pueden dar me gusta, compartir o guardar el debate.`}
                     />
                 </div>
-                <div className="mb-4"></div>
+                <div className="mb-4">
+                    <InfoCard
+                        title={"Simulador de MMU"}
+                        imgSrc={CSProjectPhoto}
+                        imgPosition={"right"}
+                        toLink={"so-project-2"}
+                        text={`Es un simulador de algoritmos de paginación para una MMU. La aplicación permite a los usuarios
+                            generar una sesión de trabajo para memoria, en la que especifican parámetros como la cantidad de
+                            procesos, cantidad de instrucciones a generar y algoritmo a utilizar. La aplicación permite visualizar 
+                            la diferencia de rendimiento entre los algoritmos FIFO, MRU, Second Chance y Random contra el algoritmo óptimo de paginación.`}
+                        />
+                </div>
+                <div className="mb-4">
+                    <InfoCard
+                        title={"Sistema Duende"}
+                        imgSrc={CSProjectPhoto}
+                        imgPosition={"left"}
+                        toLink={"ds-project"}
+                        text={`Es un sistema web para e-commerce de productos de maquillaje y cuidado de la piel. El sistema permite a los usuarios
+                            ver los productos, agregarlos a un carrito y simular una compra. La administradora de la página, una maquillista
+                            conocida como Duende, puede acceder en la aplicación a funciones para administrar y ver los pedidos, además de manejar una agenda
+                            para coordinar entregas de pedidos y sesiones de maquillaje.`}
+                    />
+                </div>
+                <div className="mb-4">
+                    <InfoCard
+                        title={"Sistema de Reserva para Hoteles"}
+                        imgSrc={CSProjectPhoto}
+                        imgPosition={"right"}
+                        toLink={"ap-project"}
+                        text={`Es un sistema web para buscar y realizar reservas en hoteles. El sistema permite a los usuarios ver los hoteles registrados,
+                            ver la información de los hoteles y realizar reservas en los mismos. Los administradores de los hoteles pueden también
+                            realizar reservas, pueden registrar ofertas y agregar condiciones a las mismas, pueden manejar las reservas registradas, y pueden
+                            consultar estadísticas asociadas a las reservas y estadías.`}
+                    />
+                </div>
+                <div className="mb-4">
+                    <InfoCard
+                        title={"Sistema de Blogging"}
+                        imgSrc={CSProjectPhoto}
+                        imgPosition={"left"}
+                        toLink={"db2-project"}
+                        text={``}
+                    />
+                </div>
+                <div className="mb-4">
+                    <InfoCard
+                        title={"Sistema de Compresión de Archivos"}
+                        imgSrc={CSProjectPhoto}
+                        imgPosition={"right"}
+                        toLink={"so-project-1"}
+                        text={`Es un sistema para comprimir archivos de texto desde la terminal de comandos de Linux. El sistema
+                            utiliza el algoritmo de Huffman para la compresión; y permite al usuario seleccionar una carpeta para comprimir y 
+                            la implementación de compresión a utilizar.
+                            El usuario puede seleccionar entre la implementación serial, con hilos y con procesos. Al finalizar
+                            se muestra en consola el tiempo que tardó la compresión.`}
+                    />
+                </div>
+                <div className="mb-4">
+                <InfoCard
+                        title={"Plataforma Universitaria"}
+                        imgSrc={CSProjectPhoto}
+                        imgPosition={"left"}
+                        toLink={"db1-project"}
+                        text={`Es un sistema web que actúa como plataforma para una universidad. El sistema permite
+                            registrar cursos y agregar profesores y estudiantes a los mismos. Los profesores pueden
+                            registrar trabajos en el curso y pueden definir los grupos de estudiantes para las asignaciones.
+                            Los estudiantes pueden visualizar sus cursos y ver sus calificaciones.`}
+                    />
+                </div>
             </div>
         </div>
     );

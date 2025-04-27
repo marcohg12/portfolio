@@ -8,7 +8,6 @@ import CSProjectPhoto5 from "../../assets/cs-project/cs-proyecto-5.png";
 import CSProjectPhoto6 from "../../assets/cs-project/cs-proyecto-6.png";
 import CSProjectPhoto7 from "../../assets/cs-project/cs-proyecto-7.png";
 import CSProjectPhoto8 from "../../assets/cs-project/cs-proyecto-8.png";
-import { Link } from "react-router-dom";
 
 function CSProject(){
     return(
@@ -60,7 +59,11 @@ function CSProject(){
                 
                 </p>
                 <h3>Acceso</h3>
-                <p>Puede ver el código fuente en GitHub por medio del siguiente enlace: <Link to="https://github.com/marcohg12/CS_Proyecto">Enlace al proyecto</Link></p>
+                <p>Puede ver el código fuente en GitHub por medio del siguiente enlace: 
+                    <a href="https://github.com/marcohg12/CS_Proyecto" target="_blank" rel="noopener noreferrer" className="mb-0 ms-2">
+                        Enlace al proyecto
+                    </a>
+                </p>
                 <h3>Tecnologías</h3>
                 <div className="d-flex flex-wrap gap-2">
                     <img src={"https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"} alt="React logo"/>
