@@ -4,6 +4,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination } from 'swiper/modules';
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 function Carousel({ images }) {
     
@@ -19,17 +21,19 @@ function Carousel({ images }) {
             >
                 {images.map((image, index) => (
                     <SwiperSlide key={index}>
-                        <img
-                            src={image}
-                            alt={`Imagen ${index + 1}`}
-                            className="d-block w-100"
-                            style={{
-                                height: "450px",
-                                objectFit: "contain",
-                                display: "block",
-                                margin: "auto",
-                            }}
-                        />
+                        <Zoom>
+                            <img
+                                src={image}
+                                alt={`Imagen ${index + 1}`}
+                                className="d-block w-100"
+                                style={{
+                                    height: "450px",
+                                    objectFit: "contain",
+                                    display: "block",
+                                    margin: "auto",
+                                }}
+                            />
+                        </Zoom>
                     </SwiperSlide>
                 ))}
             </Swiper>
