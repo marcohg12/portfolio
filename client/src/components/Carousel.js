@@ -1,61 +1,38 @@
 import React from "react";
-import Zoom from 'react-medium-image-zoom';
-import 'react-medium-image-zoom/dist/styles.css';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { Navigation, Pagination } from 'swiper/modules';
 
-function Carousel({images}){
-    return(
+function Carousel({ images }) {
     
-        <div id="carousel" className="carousel carousel-dark slide carousel-fade" data-bs-ride="false">
-
-            <div className="carousel-indicators">
-                {images.map((_, index) => (
-                    <button
-                        key={index}
-                        type="button"
-                        data-bs-target="#carousel"
-                        data-bs-slide-to={index}
-                        className={index === 0 ? 'active' : ''}
-                        aria-current={index === 0 ? 'true' : 'false'}
-                        aria-label={`Imagen ${index + 1}`}
-                    ></button>
-                ))}
-            </div>
-            
-            <div className="carousel-inner">
+    return (
+        <div id="carousel" className="carousel slide carousel-fade">
+            <Swiper
+                modules={[Navigation, Pagination]}
+                spaceBetween={10}
+                slidesPerView={1}
+                navigation
+                pagination={{ clickable: true }}
+                loop
+            >
                 {images.map((image, index) => (
-                    <div
-                        key={index}
-                        className={`carousel-item ${index === 0 ? 'active' : ''}`}
-                    >
-                        <Zoom>
-                            <img 
-                                src={image} 
-                                className="d-block w-100" 
-                                alt={`Imagen ${index + 1}`} 
-                                style={{height: "450px", objectFit: "contain"}}
-                            />
-                        </Zoom>
-                    </div>
+                    <SwiperSlide key={index}>
+                        <img
+                            src={image}
+                            alt={`Imagen ${index + 1}`}
+                            className="d-block w-100"
+                            style={{
+                                height: "450px",
+                                objectFit: "contain",
+                                display: "block",
+                                margin: "auto",
+                            }}
+                        />
+                    </SwiperSlide>
                 ))}
-            </div>
-    
-            <button
-                className="carousel-control-prev"
-                type="button"
-                data-bs-target="#carousel"
-                data-bs-slide="prev"
-            >
-                <span className="carousel-control-prev-icon"></span>
-            </button>
-    
-            <button
-                className="carousel-control-next"
-                type="button"
-                data-bs-target="#carousel"
-                data-bs-slide="next"
-            >
-                <span className="carousel-control-next-icon"></span>
-            </button>
+            </Swiper>
         </div>
     );
 }

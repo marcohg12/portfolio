@@ -7,21 +7,21 @@ function InfoCard({title, text, imgSrc, imgPosition, toLink}){
             <div className="row g-0">
 
                 {imgSrc &&
-                    <div className={`col-md-4 col-12 ${imgPosition === 'right' ? 'order-md-1' : 'order-md-0'}`}>
+                    <div className={`col-lg-4 col-12 ${imgPosition === 'right' ? 'order-lg-1' : 'order-lg-0'}`}>
                         <img
                         src={imgSrc}
                         alt=""
-                        className={`img-fluid ${imgPosition === 'right' ? 'rounded-end' : 'rounded-start'}`}
+                        className={`img-fluid rounded`}
                         style={{objectFit: 'cover', width: '100%', height: '100%'}}
                         />
                     </div>
                 }
 
-                <div className="col-md-8 col-12">
+                <div className="col-lg-8 col-12">
                     <div className="card-body m-3">
                         <h5 className="card-title">{title}</h5>
                         <p className="card-text">{text}</p>
-                        <button className="btn btn-primary" to={toLink}>Leer más</button>
+                        <button className="btn btn-primary">Leer más</button>
                     </div>
                 </div>
             </div>
