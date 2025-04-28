@@ -7,7 +7,7 @@ function InfoCard({title, text, imgSrc, imgPosition, toLink}){
             <div className="row g-0">
 
                 {imgSrc &&
-                    <div className={`col-lg-4 col-12 ${imgPosition === 'right' ? 'order-lg-1' : 'order-lg-0'}`}>
+                    <div className={`col-xl-5 col-12 ${imgPosition === 'right' ? 'order-xl-1' : 'order-xl-0'}`}>
                         <img
                         src={imgSrc}
                         alt=""
@@ -17,7 +17,7 @@ function InfoCard({title, text, imgSrc, imgPosition, toLink}){
                     </div>
                 }
 
-                <div className="col-lg-8 col-12">
+                <div className="col-xl-7 col-12">
                     <div className="card-body m-3">
                         <h5 className="card-title">{title}</h5>
                         <p className="card-text">{text}</p>
