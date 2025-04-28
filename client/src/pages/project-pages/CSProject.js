@@ -37,28 +37,27 @@ function CSProject(){
                 </p>
                 <p>
                     Para este proyecto profundicé en conceptos de React y frontend como:
-                    <ul className="my-3">
-                        <li>
-                            <p><b>Providers: </b>Para poder compartir datos entre componentes de forma más limpia y organizada.</p>
-                        </li>
-                        <li>
-                            <p><b>Infinite scrolls: </b>Para poder implementar las líneas de tiempo típicas de una red social.</p>
-                        </li>
-                        <li>
-                            <p><b>Alert modals: </b>Para poder dar mensajes a los usuarios sobre el resultado de acciones que hayan hecho (como publicar debates, por ejemplo).</p>
-                        </li>
-                        <li>
-                            <p><b>Popup modals: </b>Para crear menús y formularios emergentes.</p>
-                        </li>
-                        <li>
-                            <p><b>Autenticación con OAuth 2.0: </b>Para autenticar a los usuarios en la aplicación y poder consumir el API de Mastodon.</p>
-                        </li>
-                        <li>
-                            <p><b>Rich links: </b>Para generar enlaces con previsualización del contenido.</p>
-                        </li>
-                    </ul>
-                
                 </p>
+                <ul>
+                    <li>
+                        <p><b>Providers: </b>Para poder compartir datos entre componentes de forma más limpia y organizada.</p>
+                    </li>
+                    <li>
+                        <p><b>Infinite scrolls: </b>Para poder implementar las líneas de tiempo típicas de una red social.</p>
+                    </li>
+                    <li>
+                        <p><b>Alert modals: </b>Para poder dar mensajes a los usuarios sobre el resultado de acciones que hayan hecho (como publicar debates, por ejemplo).</p>
+                    </li>
+                    <li>
+                        <p><b>Popup modals: </b>Para crear menús y formularios emergentes.</p>
+                    </li>
+                    <li>
+                        <p><b>Autenticación con OAuth 2.0: </b>Para autenticar a los usuarios en la aplicación y poder consumir el API de Mastodon.</p>
+                    </li>
+                    <li>
+                        <p><b>Rich links: </b>Para generar enlaces con previsualización del contenido.</p>
+                    </li>
+                </ul>
                 <h3>Acceso</h3>
                 <p>Puede ver el código fuente en GitHub por medio del siguiente enlace: 
                     <a href="https://github.com/marcohg12/CS_Proyecto" target="_blank" rel="noopener noreferrer" className="mb-0 ms-2">

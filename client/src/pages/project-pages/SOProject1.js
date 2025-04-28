@@ -32,19 +32,18 @@ function SOProject1(){
                 </p>
                 <p>
                     Para este proyecto profundicé en conceptos de estructuras de datos y bash como:
-                    <ul className="my-3">
-                        <li>
-                            <p><b>Estructuras de datos: </b>Hice mis propias implementaciones de estructuras como diccionarios, min-heap, árboles y nodos en C.</p>
-                        </li>
-                        <li>
-                            <p><b>Scripts de bash: </b>Utilicé scripts de bash para automatizar la instalación del ambiente de desarrollo y despliegue local de la aplicación.</p>
-                        </li>
-                        <li>
-                            <p><b>Renombrado incremental: </b>Implementé un mecanismo para nombrar incrementalmente los archivos si ya existe un archivo comprimido con el mismo nombre.</p>
-                        </li>
-                    </ul>
-                
                 </p>
+                <ul>
+                    <li>
+                        <p><b>Estructuras de datos: </b>Hice mis propias implementaciones de estructuras como diccionarios, min-heap, árboles y nodos en C.</p>
+                    </li>
+                    <li>
+                        <p><b>Scripts de bash: </b>Utilicé scripts de bash para automatizar la instalación del ambiente de desarrollo y despliegue local de la aplicación.</p>
+                    </li>
+                    <li>
+                        <p><b>Renombrado incremental: </b>Implementé un mecanismo para nombrar incrementalmente los archivos si ya existe un archivo comprimido con el mismo nombre.</p>
+                    </li>
+                </ul>
                 <h3>Acceso</h3>
                 <p>Puede ver el código fuente en GitHub por medio del siguiente enlace: 
                     <a href="https://github.com/marcohg12/SO_Proyecto_01" target="_blank" rel="noopener noreferrer" className="mb-0 ms-2">

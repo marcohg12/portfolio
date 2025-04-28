@@ -43,25 +43,24 @@ function DSProject(){
                 </p>
                 <p>
                     Para este proyecto profundicé en conceptos de frontend, arquitectura y patrones de diseño como:
-                    <ul className="my-3">
-                        <li>
-                            <p><b>Organización del backend: </b>Utilicé una separación de routers, controladores, modelos y daos siguiendo principios SOLID.</p>
-                        </li>
-                        <li>
-                            <p><b>Patrón observer: </b>Utilicé este patrón para detectar cambios en el estado de los pedidos y notificar a los usuarios.</p>
-                        </li>
-                        <li>
-                            <p><b>Patrón decorator: </b>Utilicé este patrón para crear entradas genericas en el calendario, de modo que la administradora pudiera definir los campos que deseara.</p>
-                        </li>
-                        <li>
-                            <p><b>Protección de rutas: </b>Implementé un mecanismo en React para proteger las rutas de administración de usuarios no autenticados como administrador.</p>
-                        </li>
-                        <li>
-                            <p><b>Calendario de agenda: </b>Implementé el calendario con la biblioteca react-big-calendar, el cual proporciona múltiples vistas.</p>
-                        </li>
-                    </ul>
-                
                 </p>
+                <ul>
+                    <li>
+                        <p><b>Organización del backend: </b>Utilicé una separación de routers, controladores, modelos y daos siguiendo principios SOLID.</p>
+                    </li>
+                    <li>
+                        <p><b>Patrón observer: </b>Utilicé este patrón para detectar cambios en el estado de los pedidos y notificar a los usuarios.</p>
+                    </li>
+                    <li>
+                        <p><b>Patrón decorator: </b>Utilicé este patrón para crear entradas genericas en el calendario, de modo que la administradora pudiera definir los campos que deseara.</p>
+                    </li>
+                    <li>
+                        <p><b>Protección de rutas: </b>Implementé un mecanismo en React para proteger las rutas de administración de usuarios no autenticados como administrador.</p>
+                    </li>
+                    <li>
+                        <p><b>Calendario de agenda: </b>Implementé el calendario con la biblioteca react-big-calendar, el cual proporciona múltiples vistas.</p>
+                    </li>
+                </ul>
                 <h3>Acceso</h3>
                 <p>Puede ver el código fuente en GitHub por medio del siguiente enlace: 
                     <a href="https://github.com/marcohg12/DS_Proyecto" target="_blank" rel="noopener noreferrer" className="mb-0 ms-2">

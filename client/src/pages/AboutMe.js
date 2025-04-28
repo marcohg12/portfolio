@@ -58,15 +58,16 @@ function AboutMe(){
                             Estas experiencias reflejan mi compromiso con el aprendizaje más allá de los cursos académicos, pues siempre busco nuevas formas de aplicar mis conocimientos 
                             y contribuir al entorno profesional en el que me desenvuelvo.
                         </p>
-                        <p>Las actividades en las que he participado son las siguientes:
-                            <ul className="d-flex flex-column gap-2 my-3">
-                                <li><b>Asistente del curso Base de Datos I.</b> Julio, 2022 - junio, 2024.</li>
-                                <li><b>Asistente del curso Análisis de Algoritmos.</b> Julio, 2023 - noviembre, 2023.</li>
-                                <li><b>Asistente del curso Administración de Proyectos.</b> Febrero, 2024 - junio, 2024.</li>
-                                <li><b>Asistente del curso Investigación de Operaciones.</b> Febrero, 2024 - junio, 2024.</li>
-                                <li><b>Asistente de Automatización de Procesos.</b> Julio, 2024 - la actualidad.</li>
-                            </ul>
+                        <p>
+                            Las actividades en las que he participado son las siguientes:
                         </p>
+                        <ul className="d-flex flex-column gap-2">
+                            <li><b>Asistente del curso Base de Datos I.</b> Julio, 2022 - junio, 2024.</li>
+                            <li><b>Asistente del curso Análisis de Algoritmos.</b> Julio, 2023 - noviembre, 2023.</li>
+                            <li><b>Asistente del curso Administración de Proyectos.</b> Febrero, 2024 - junio, 2024.</li>
+                            <li><b>Asistente del curso Investigación de Operaciones.</b> Febrero, 2024 - junio, 2024.</li>
+                            <li><b>Asistente de Automatización de Procesos.</b> Julio, 2024 - la actualidad.</li>
+                        </ul>
                     </section>
                 
                 </section>

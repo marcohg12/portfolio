@@ -38,22 +38,21 @@ function SOProject2(){
                 </p>
                 <p>
                     Para este proyecto profundicé en conceptos de Linux, orientación a objetos y de arquitectura como:
-                    <ul className="my-3">
-                        <li>
-                            <p><b>Patrón strategy: </b>Utilicé este patrón para definir el comportamiento de la simulación según el algoritmo que seleccione el usuario.</p>
-                        </li>
-                        <li>
-                            <p><b>Patrón MVC: </b>Utilicé este patrón para definir la arquitectura de la aplicación, separar responsabilidades y mejorar la organización.</p>
-                        </li>
-                        <li>
-                            <p><b>Scripts de bash: </b>Utilicé scripts de bash para automatizar la instalación del ambiente de desarrollo y despliegue local de la aplicación.</p>
-                        </li>
-                        <li>
-                            <p><b>SwingWorker: </b>Es un objeto de Java Swing que permite ejecutar tareas pesadas en segundo plano.</p>
-                        </li>
-                    </ul>
-                
                 </p>
+                <ul>
+                    <li>
+                        <p><b>Patrón strategy: </b>Utilicé este patrón para definir el comportamiento de la simulación según el algoritmo que seleccione el usuario.</p>
+                    </li>
+                    <li>
+                        <p><b>Patrón MVC: </b>Utilicé este patrón para definir la arquitectura de la aplicación, separar responsabilidades y mejorar la organización.</p>
+                    </li>
+                    <li>
+                        <p><b>Scripts de bash: </b>Utilicé scripts de bash para automatizar la instalación del ambiente de desarrollo y despliegue local de la aplicación.</p>
+                    </li>
+                    <li>
+                        <p><b>SwingWorker: </b>Es un objeto de Java Swing que permite ejecutar tareas pesadas en segundo plano.</p>
+                    </li>
+                </ul>
                 <h3>Acceso</h3>
                 <p>Puede ver el código fuente en GitHub por medio del siguiente enlace: 
                     <a href="https://github.com/marcohg12/SO_Proyecto_02" target="_blank" rel="noopener noreferrer" className="mb-0 ms-2">Enlace al proyecto</a>

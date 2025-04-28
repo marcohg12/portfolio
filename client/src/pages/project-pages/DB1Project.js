@@ -40,16 +40,15 @@ function DB1Project(){
                 </p>
                 <p>
                     Para este proyecto profundicé en conceptos de frontend y bases de datos como:
-                    <ul className="my-3">
-                        <li>
-                            <p><b>Diseño de interfaz: </b>Utilicé un diseño de interfaz intuitivo y agradable al usuario.</p>
-                        </li>
-                        <li>
-                            <p><b>Servicio de envío de correos: </b>Implementé un servicio para enviar correos desde Java.</p>
-                        </li>
-                    </ul>
-                
                 </p>
+                <ul>
+                    <li>
+                        <p><b>Diseño de interfaz: </b>Utilicé un diseño de interfaz intuitivo y agradable al usuario.</p>
+                    </li>
+                    <li>
+                        <p><b>Servicio de envío de correos: </b>Implementé un servicio para enviar correos desde Java.</p>
+                    </li>
+                </ul>
                 <h3>Tecnologías</h3>
                 <div className="d-flex flex-wrap gap-2">
                     <img src={"https://img.shields.io/badge/Java-b07219?style=for-the-badge&logo=java&logoColor=white"} alt="Java logo"/>

@@ -38,19 +38,18 @@ function DB2Project(){
                 </p>
                 <p>
                     Para este proyecto profundicé en conceptos de Express y frontend como:
-                    <ul className="my-3">
-                        <li>
-                            <p><b>Middleware de autenticación: </b>Implementé un middleware para proteger endpoints de usuarios no autenticados.</p>
-                        </li>
-                        <li>
-                            <p><b>Autenticación con passport: </b>Utilicé la biblioteca Passport para manejar las sesiones de los usuarios.</p>
-                        </li>
-                        <li>
-                            <p><b>Generación de gráficos: </b>Utilicé la biblioteca Canvasjs para crear gráficos a partir de los datos de los blogs.</p>
-                        </li>
-                    </ul>
-                
                 </p>
+                <ul>
+                    <li>
+                        <p><b>Middleware de autenticación: </b>Implementé un middleware para proteger endpoints de usuarios no autenticados.</p>
+                    </li>
+                    <li>
+                        <p><b>Autenticación con passport: </b>Utilicé la biblioteca Passport para manejar las sesiones de los usuarios.</p>
+                    </li>
+                    <li>
+                        <p><b>Generación de gráficos: </b>Utilicé la biblioteca Canvasjs para crear gráficos a partir de los datos de los blogs.</p>
+                    </li>
+                </ul>
                 <h3>Acceso</h3>
                 <p>Puede ver el código fuente en GitHub por medio del siguiente enlace: 
                     <a href="https://github.com/marcohg12/Prototipo_Investigacion" target="_blank" rel="noopener noreferrer" className="mb-0 ms-2">

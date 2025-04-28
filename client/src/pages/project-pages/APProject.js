@@ -40,25 +40,24 @@ function APProject(){
                 </p>
                 <p>
                     Para este proyecto profundicé en conceptos de frontend y bases de datos como:
-                    <ul className="my-3">
-                        <li>
-                            <p><b>Carrusel de imágenes: </b>Para que los usuarios visualizaran las imágenes de cada hotel en un carrusel.</p>
-                        </li>
-                        <li>
-                            <p><b>Manipulación del DOM: </b>Para manejar elementos de la página dinámicamente.</p>
-                        </li>
-                        <li>
-                            <p><b>EJS: </b>Utilicé el motor de plantillas para generar HTML dinámico.</p>
-                        </li>
-                        <li>
-                            <p><b>Consultas de base de datos complejas: </b>Realicé consultas complejas con el apoyo de funciones y procedimientos almacenados.</p>
-                        </li>
-                        <li>
-                            <p><b>Jobs: </b>Utilicé jobs de bases de datos para manejar el estado de las ofertas.</p>
-                        </li>
-                    </ul>
-                
                 </p>
+                <ul>
+                    <li>
+                        <p><b>Carrusel de imágenes: </b>Para que los usuarios visualizaran las imágenes de cada hotel en un carrusel.</p>
+                    </li>
+                    <li>
+                        <p><b>Manipulación del DOM: </b>Para manejar elementos de la página dinámicamente.</p>
+                    </li>
+                    <li>
+                        <p><b>EJS: </b>Utilicé el motor de plantillas para generar HTML dinámico.</p>
+                    </li>
+                    <li>
+                        <p><b>Consultas de base de datos complejas: </b>Realicé consultas complejas con el apoyo de funciones y procedimientos almacenados.</p>
+                    </li>
+                    <li>
+                        <p><b>Jobs: </b>Utilicé jobs de bases de datos para manejar el estado de las ofertas.</p>
+                    </li>
+                </ul>
                 <h3>Acceso</h3>
                 <p>Puede ver el código fuente en GitHub por medio del siguiente enlace: 
                     <a href="https://github.com/marcohg12/AP-Sistema_funcional" target="_blank" rel="noopener noreferrer" className="mb-0 ms-2">

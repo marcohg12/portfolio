@@ -11,8 +11,8 @@ function InfoCard({title, text, imgSrc, imgPosition, toLink}){
                         <img
                         src={imgSrc}
                         alt=""
-                        className={`img-fluid h-100 ${imgPosition === 'right' ? 'rounded-end' : 'rounded-start'}`}
-                        style={{ objectFit: 'cover' }}
+                        className={`img-fluid ${imgPosition === 'right' ? 'rounded-end' : 'rounded-start'}`}
+                        style={{objectFit: 'cover', width: '100%', height: '100%'}}
                         />
                     </div>
                 }
@@ -21,7 +21,7 @@ function InfoCard({title, text, imgSrc, imgPosition, toLink}){
                     <div className="card-body m-3">
                         <h5 className="card-title">{title}</h5>
                         <p className="card-text">{text}</p>
-                        <Link className="btn btn-primary" to={toLink}>Leer más</Link>
+                        <button className="btn btn-primary" to={toLink}>Leer más</button>
                     </div>
                 </div>
             </div>
