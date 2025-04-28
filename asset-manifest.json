@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ec37218a.css",
-    "main.js": "/portfolio/static/js/main.85a50473.js",
+    "main.css": "/portfolio/static/css/main.b541f81f.css",
+    "main.js": "/portfolio/static/js/main.5c677c0f.js",
     "static/media/campus-sj.jpg": "/portfolio/static/media/campus-sj.46a60ee0fb981c734009.jpg",
     "static/media/ap-proyecto-2.png": "/portfolio/static/media/ap-proyecto-2.7e078d8af16d29e83068.png",
     "static/media/ds-proyecto-2.png": "/portfolio/static/media/ds-proyecto-2.eb5b5c79423230403608.png",
@@ -48,11 +48,11 @@
     "static/media/ap-proyecto-9.png": "/portfolio/static/media/ap-proyecto-9.c53f5d05b2c0c76f5b2f.png",
     "static/media/bd1-proyecto-1.png": "/portfolio/static/media/bd1-proyecto-1.bf0dc0d310f78fcce593.png",
     "index.html": "/portfolio/index.html",
-    "main.ec37218a.css.map": "/portfolio/static/css/main.ec37218a.css.map",
-    "main.85a50473.js.map": "/portfolio/static/js/main.85a50473.js.map"
+    "main.b541f81f.css.map": "/portfolio/static/css/main.b541f81f.css.map",
+    "main.5c677c0f.js.map": "/portfolio/static/js/main.5c677c0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec37218a.css",
-    "static/js/main.85a50473.js"
+    "static/css/main.b541f81f.css",
+    "static/js/main.5c677c0f.js"
   ]
 }
