@@ -1,5 +1,8 @@
 import React from "react";
 import Carousel from "../../components/Carousel";
+import SOProject1Photo1 from "../../assets/so-project-1/so-proyecto-1-1.png";
+import SOProject1Photo2 from "../../assets/so-project-1/so-proyecto-1-2.png";
+import SOProject1Photo3 from "../../assets/so-project-1/so-proyecto-1-3.png";
 
 function SOProject1(){
     return(
@@ -9,7 +12,7 @@ function SOProject1(){
                 <p className="fw-lighter">Elaborado en el segundo semestre de 2024.</p>
                 <div className="mb-4">
                     <Carousel
-                        images={[]}
+                        images={[SOProject1Photo1, SOProject1Photo2, SOProject1Photo3]}
                     />
                 </div>
                 <h3>Descripción</h3>

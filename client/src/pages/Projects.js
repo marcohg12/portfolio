@@ -6,6 +6,7 @@ import DSProjectPhoto from "../assets/ds-project/ds-proyecto-1.png";
 import DB2ProjectPhoto from "../assets/bd2-project/bd2-proyecto-1.png";
 import DB1ProjectPhoto from "../assets/bd1-project/bd1-proyecto-1.png";
 import APPProjectPhoto from "../assets/ap-project/ap-proyecto-1.jpg";
+import SOProject1Photo from "../assets/so-project-1/so-proyecto-1-1.png";
 
 function Projects(){
     return(
@@ -74,7 +75,7 @@ function Projects(){
                 <div className="mb-5">
                     <InfoCard
                         title={"Sistema de Compresión de Archivos"}
-                        imgSrc={CSProjectPhoto}
+                        imgSrc={SOProject1Photo}
                         imgPosition={"right"}
                         toLink={"so-project-1"}
                         text={`Es un sistema para comprimir archivos de texto desde la terminal de comandos de Linux. El sistema
